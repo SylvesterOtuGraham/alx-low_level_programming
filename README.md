@@ -1,1 +1,1 @@
-this file is to demonstrate processes in c program
+1.this file is to demonstrate processes in c program
