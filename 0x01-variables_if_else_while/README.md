@@ -8,3 +8,4 @@
 8.reverse print
 9.base 16
 10.combination
+11.possible combo
