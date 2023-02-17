@@ -5,3 +5,4 @@
 5.mix
 6.single
 7.single digit
+8.reverse print
