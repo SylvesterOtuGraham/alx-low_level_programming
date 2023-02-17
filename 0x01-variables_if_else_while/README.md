@@ -4,3 +4,4 @@
 4.upper and lower case
 5.mix
 6.single
+7.single digit
