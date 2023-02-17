@@ -6,3 +6,4 @@
 6.single
 7.single digit
 8.reverse print
+9.base 16
