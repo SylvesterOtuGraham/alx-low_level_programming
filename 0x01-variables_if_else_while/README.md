@@ -9,3 +9,4 @@
 9.base 16
 10.combination
 11.possible combo
+12.combo 3
