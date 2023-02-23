@@ -1,1 +1,1 @@
-this repo elaborates the debugging processes in coding
+This repo eloboartes all the debuggig processes
