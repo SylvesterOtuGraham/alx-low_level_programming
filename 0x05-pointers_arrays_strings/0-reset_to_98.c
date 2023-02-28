@@ -1,22 +1,11 @@
 #include"main.h"
 #include <stdio.h>
 /**
- * main-prints out the reset value of int p
- * n- is a variable
+ * reset_to_98 -updates the value of where the pointer points to
+ * @n: int to check
+ * Return: 0 is success
  */
-
-void reset_to_98(int *n);
-int main(void)
+void reset_to_98(int *n)
 {
-	int p;
-
-	p = 97;
-
-	int *n;
-
-	n = &p;
-
 	*n = 98;
-
-	return (0);
 }
