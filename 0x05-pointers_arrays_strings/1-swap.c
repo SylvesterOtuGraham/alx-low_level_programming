@@ -2,14 +2,17 @@
 #include<stdio.h>
 /**
  * swap_int- uses the pointers to swap values in diferent addresses
- * @int *a - its a pointer
- * @int *b -its a pointer
+ * @a - its a pointer
+ * @b -its a pointer
  * return: 0 if succesful
  */
 void swap_int(int *a, int *b);
 {
-	int c = int d;
-	int d = int c;
+	int *a = c;
+
+	int *b = d;
+	int *b = c;
+	int *a = d;
 
 	return (0);
 }
