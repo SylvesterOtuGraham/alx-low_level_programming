@@ -3,14 +3,14 @@
 * swap_int - swaps the value of int a and int b
 * @a: first int
 * @b: second int
-* Return 0
+* Return: 0 if success
 */
 void swap_int(int *a, int *b)
 {
-	int q;
+	int s;
 
 	s = *a;
 	*a = *b;
-	*b = q;
+	*b = s;
 	return (0);
 }
