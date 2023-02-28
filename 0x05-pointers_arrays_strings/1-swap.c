@@ -1,18 +1,17 @@
-#include"main,h"
-#include<stdio.h>
+#include "main.h"
 /**
- * swap_int- uses the pointers to swap values in diferent addresses
- * @a: firs int
- * @b: second int
- * return: 0 if succesful
- */
-void swap_int(int *a, int *b);
+* swap_int - swaps the value of int a and int b
+* @a: first int
+* @b: second int
+* Return 0
+*/
+void swap_int(int *a, int *b)
 {
 	int *a = c;
 
 	int *b = d;
-	*a = d;
-	*b = c;
 
+	*a = d;
+	*b = d;
 	return (0);
 }
