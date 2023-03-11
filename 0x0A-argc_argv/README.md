@@ -1,0 +1,1 @@
+C provides a fairly simple mechanism for retrieving command line parameters entered by the user. It passes an argv parameter to the main function in the program. argv structures appear in a fair number of the more advanced library calls, so understanding them is useful to any C programmer.
