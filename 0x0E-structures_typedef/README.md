@@ -1,0 +1,1 @@
+During your programming experience you may feel the need to define your own type of data. In C this is done using two keywords: struct and typedef. Structures and unions will give you the chance to store non-homogenous data types into a single collection.
