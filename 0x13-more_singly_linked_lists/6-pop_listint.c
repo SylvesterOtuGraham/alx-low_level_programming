@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - responsible for deleting the head node of a linked list.
+ * pop_listint - Deletes the head node of a linked list.
  * @head: Pointer to the pointer to the head of the list
  *
- * Return: 0 if list is empty, return head node data or 0
+ * Return: The head node data, or 0 if list is empty
  */
 int pop_listint(listint_t **head)
 {
