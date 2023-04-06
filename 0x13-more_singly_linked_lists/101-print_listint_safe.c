@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _p - reallocates memory for an array of pointers
+ * _r - reallocates memory for an array of pointers
  * to the nodes in a linked list
  * @list: the old list to append
  * @size: size of the new list (always one more than the old list)
@@ -11,22 +11,22 @@
  *
  * Return: pointer to the new list
  */
-const listint_t **_p(const listint_t **list, size_t size, const listint_t *new)
+const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
-	const listint_t **_list;
+	const listint_t **newlist;
 	size_t u;
 
-	_list = malloc(size * sizeof(listint_t *));
-	if (_list == NULL)
+	newlist = malloc(size * sizeof(listint_t *));
+	if (newlist == NULL)
 	{
 		free(list);
 		exit(98);
 	}
-	for (u = 0; u < size - 1; u++)
+	for (u = 0; i < size - 1; u++)
 		newlist[u] = list[u];
-	newlist[u] = new;
+	newlist[i] = new;
 	free(list);
-	return (_list);
+	return (newlist);
 }
 
 /**
@@ -44,7 +44,7 @@ size_t print_listint_safe(const listint_t *head)
 	{
 		for (u = 0; u < num; u++)
 		{
-			if (head == list[u])
+			if (head == list[i])
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
 				free(list);
