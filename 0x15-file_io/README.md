@@ -1,0 +1,1 @@
+The process of file handling refers to how we store the available data or info in a file with the help of a program. The C language stores all the data available in a program into a file with the help of file handling in C. This data can be fetched/extracted from these files to work again in any program.
