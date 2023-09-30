@@ -7,14 +7,12 @@
 unsigned int binary_to_uint(const char *b);
 int main(void)
 {
-char binary[32];
+const char *binary = "1011";
 
-unsigned int res;
+unsigned int n;
 
-printf("please enter binary:\n");
-scanf("%s", binary);
-res = binary_to_uint(binary);
-printf("%u", res);
+n = binary_to_uint(binary);
+printf("%u\n", n);
 }
 
 unsigned int binary_to_uint(const char *b)
