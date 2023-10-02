@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 
 /**
@@ -8,18 +7,20 @@
 void print_binary(unsigned long int n)
 {
 	int i, count = 0;
-	unsigned long int binary;
+	unsigned long int current;
 
 	for (i = 63; i >= 0; i--)
 	{
-		binary  = n >> i;
+		current = n >> i;
 
-		if (binary & 1)
+		if (current & 1)
 		{
-			printf("1");
+			_putchar('1');
+			count++;
 		}
-		else
-			printf("0");
+		else if (count)
+			_putchar('0');
 	}
-
+	if (!count)
+		_putchar('0');
 }
